@@ -42,5 +42,10 @@ namespace App1
                 DisplayAlert("Validation Error,", "Please Enter a Number", "Cancel");
             }
         }
+
+        private void DisplayTransactionsButton_Clicked(object sender, EventArgs e)
+        {
+            DisplayTransactionsLabel.Text = _account.GetTransactionHistory();
+        }
     }
 }
