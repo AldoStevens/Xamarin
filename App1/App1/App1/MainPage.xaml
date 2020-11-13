@@ -12,7 +12,7 @@
         <Entry x:Name="DepositReasonEntry" Placeholder="Deposit Reason" />
         <Button x:Name="DepositButton" Text="Deposit" Clicked="DepositButton_Clicked"/>
 
-        <Button x:Name="DisplayTransactionsButton" Clicked="DisplayTransactionsButton_Clicked" />
+        <Button x:Name="DisplayTransactionsButton" Text="Display Transactions" Clicked="DisplayTransactionsButton_Clicked" />
         <Label x:Name="DisplayTransactionsLabel" />
 
     </StackLayout>
